@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+    background: #000;
+}
+
+h1,h2{
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 30px;
+}
+
+.texto{
+    text-shadow: 0 0 5px #00a098,
+    0 0 10px #1cc2ba,
+    0 0 15px #1cc2ba,
+    0 0 20px #1cc2ba,
+    0 0 25px #1cc2ba,
+    0 0 30px #1cc2ba,
+    0 0 40px #1cc2ba,
+    0 0 50px #1cc2ba,
+    0 0 70px #1cc2ba
+
+}
+.textoRojo{
+    text-shadow: 0 0 5px #f94b4b,
+    0 0 10px #f94b4b,
+    0 0 15px #f94b4b,
+    0 0 20px #f94b4b,
+    0 0 25px #f94b4b,
+    0 0 30px #f94b4b,
+    0 0 40px #f94b4b,
+    0 0 50px #f94b4b,
+    0 0 70px #f94b4b;
+}
+.textoAmarillo{
+    text-shadow: 0 0 5px #eaef49,
+    0 0 10px #eaef49,
+    0 0 15px #eaef49,
+    0 0 20px #eaef49,
+    0 0 25px #eaef49,
+    0 0 30px #eaef49,
+    0 0 40px #eaef49,
+    0 0 50px #eaef49,
+    0 0 70px #eaef49;
+}
+.textoVerde{
+    text-shadow: 0 0 5px #4eeb68ff,
+    0 0 10px #4eeb68ff,
+    0 0 15px #4eeb68ff,
+    0 0 20px #4eeb68ff,
+    0 0 25px #4eeb68ff,
+    0 0 30px #4eeb68ff,
+    0 0 40px #4eeb68ff,
+    0 0 50px #4eeb68ff,
+    0 0 70px #4eeb68ff;
+}
+
+.btnRojo{
+    background: #f94b4b;
+}
+.btnAmarillo{
+    background: #eaef49;
+}
+.btnVerde{
+    background: #4eeb68ff;
+}
+
+.btnRojo:hover{
+    border: 1px solid #f94b4b;
+    color: #f94b4b
+}
+.btnAmarillo:hover{
+    border: 1px solid #eaef49;
+    color: #eaef49
+}
+.btnVerde:hover{
+    border: 1px solid #4eeb68ff;
+    color: #4eeb68ff
+}
